@@ -1,0 +1,6 @@
+.quote{
+  color: var(--lightCyan);
+  width: 80%;
+  text-align: center;
+  font-size: var(--fontSize);
+}
