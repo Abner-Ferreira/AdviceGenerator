@@ -30,8 +30,6 @@ export default function ContextAdviceProvider({ children }) {
       .catch(err => alert("Error: ", err))
   }
 
-  console.log(quote)
-
 
   return (
     <ContextAdvice.Provider value={{ changeAdvice, quote, loading }}>

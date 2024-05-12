@@ -37,6 +37,16 @@ html,body{
   margin-top: -30px;
 }
 
+.imgDivider{
+  background-image: url('./assets/pattern-divider-desktop.svg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 80%;
+  
+}
+
+
 .loading{
   height: 30px;
   width: 30px;

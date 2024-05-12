@@ -6,3 +6,9 @@
   width: 100%;
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  .title{
+    font-size: 12px;
+  }
+}

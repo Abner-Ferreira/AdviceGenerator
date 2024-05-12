@@ -12,6 +12,8 @@ function App() {
   const { quote, loading } = useContext(ContextAdvice)
 
 
+
+
   return (
     <>
       <Box>
@@ -20,7 +22,7 @@ function App() {
           loading ? <div className='loading'></div> : <Quotes quote={quote ? quote.advice : ""} />
         }
         
-        <img src={dividerDesktop} alt="divider" />
+        <div className='imgDivider'></div>
       </Box>
       <div className="dice">
         <Dice />
