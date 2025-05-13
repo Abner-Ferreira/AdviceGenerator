@@ -1,32 +1,53 @@
-# React + Vite
+# 💬 Advice Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Advice Generator** is a simple and responsive web application that displays random pieces of advice to users. It was developed as a frontend exercise focused on API integration, dynamic content rendering, and minimalist UI design.
 
-Currently, two official plugins are available:
+## 📸 Project Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Advice Generator Screenshot](./assets/advice-fullpage.png)  
+*Add a screenshot of the app here for better visualization.*
 
-### Primary
+## 🚀 Project Overview
 
-- Light Cyan: hsl(193, 38%, 86%)
-- Neon Green: hsl(150, 100%, 66%)
+This application fetches data from the [Advice Slip API](https://api.adviceslip.com/) and displays a random quote each time the user clicks the dice icon. It’s a great example of working with external APIs, managing state with React Hooks, and applying Tailwind CSS for quick and responsive styling.
 
-### Neutral
+## 🌟 Features
 
-- Grayish Blue: hsl(217, 19%, 38%)
-- Dark Grayish Blue: hsl(217, 19%, 24%)
-- Dark Blue: hsl(218, 23%, 16%)
+- 🔄 **Random Advice Generator**  
+  Fetches new advice from the API on user interaction.
 
-## Typography
+- ⚙️ **React Hooks for State Management**  
+  Uses `useState` and `useEffect` for dynamic updates.
 
-### Body Copy
+- 💅 **Clean & Responsive UI**  
+  Styled with Tailwind CSS and fully responsive across devices.
 
-- Font size (quote): 28px
+- 🎲 **Interactive Dice Button**  
+  Triggers new API requests with smooth transitions.
 
-### Font
+## 🛠️ Technologies Used
 
-- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
-- Weights: 800
+- **ReactJS** – Component-based UI library  
+- **Tailwind CSS** – Utility-first CSS for fast styling  
+- **Advice Slip API** – Public API for generating advice  
+- **Vite** – Development build tool for lightning-fast loading
 
-### Api
+## 📚 Learning Goals
+
+This project was built to practice:
+- Fetching data from external APIs
+- Managing side effects and user interaction
+- Creating clean, responsive interfaces with Tailwind
+- Deploying a React app using Vercel
+
+## 🌐 Live Demo
+
+Check out the live version here:  
+👉 [advice-generator-abner.vercel.app](https://advice-generator-abner.vercel.app/)
+
+## 📄 License
+
+This project is for learning and portfolio purposes only.  
+All content is generated via a public API and does not represent a real product.
+
+---
