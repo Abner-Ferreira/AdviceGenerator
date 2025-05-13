@@ -4,8 +4,8 @@
 
 ## 📸 Project Preview
 
-![Advice Generator Screenshot](./assets/advice-fullpage.png)  
-*Add a screenshot of the app here for better visualization.*
+![Advice Generator Screenshot](./src/assets/advice-fullpage.png)  
+
 
 ## 🚀 Project Overview
 
